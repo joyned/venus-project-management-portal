@@ -1,0 +1,57 @@
+.venusTable {
+    width: 100%;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        thead {
+            tr {
+                th {
+                    padding: 10px;
+                    border-bottom: 1px solid var(--light-grey);
+                    text-align: left;
+                    color: var(--title-color);
+                    font-weight: normal;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: var(--text-color);
+                    padding: 10px;
+                }
+            }
+
+            tr:nth-child(even) {
+                background-color: var(--lighter-grey);
+            }
+        }
+    }
+
+    .venusTablePaginate {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        svg,
+        span {
+            cursor: pointer;
+        }
+
+        .page {
+            span {
+                margin: 0 5px;
+            }
+
+            .active {
+                color: var(--primary-color);
+                border-bottom: 1px solid var(--primary-color);
+            }
+        }
+    }
+}

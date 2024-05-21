@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+  --primary-color: #0052CC;
+  --secondary-color: #36B37E;
+  --title-color: #172B4D;
+  --text-color: #42526E;
+  --background-color: #FFFFFF;
+  --background-overlay: #F4F5F7;
+  --alert-color: #FF5630;
+  --info-color: #0052CC;
+  --success-color: #36B37E;
+  --light-grey: #B7B7B7;
+  --lighter-grey: #F0F0F0;
+  --icon-color: #737373;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+*:focus {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+span,
+p {
+  color: var(--text-color);
+}
+
+svg {
+  color: var(--icon-color);
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .pageTitleButton {
+    display: flex
+  }
+}

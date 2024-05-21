@@ -1,0 +1,25 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+
+    .loginContainer {
+        width: 40%;
+
+        .loginPanel {
+            padding: 30px;
+            border-radius: 5px;
+            background-color: var(--background-overlay);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+            .panelRight {
+                width: 50%;
+            }
+        }
+    }
+}
